@@ -53,23 +53,8 @@ JDBC manages database connectivity
 
 MySQL stores user and leave data
 
-Project Structure
-src/
- ├── java/com/leave/
- │     ├── ApplyLeaveServlet.java
- │     ├── LoginServlet.java
- │     ├── RegisterServlet.java
- │     ├── UpdateLeaveStatusServlet.java
- │     └── DBConnection.java
- │
-web/
- ├── login.jsp
- ├── register.jsp
- ├── applyLeave.jsp
- ├── adminDashboard.jsp
- ├── employeeDashboard.jsp
- ├── manageLeaves.jsp
- └── viewLeave.jsp
+
+
 How to Run
 Requirements
 
