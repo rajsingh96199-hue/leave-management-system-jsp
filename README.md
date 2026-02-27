@@ -7,46 +7,40 @@ The system follows a structured MVC-style approach where JSP handles the present
 
 Tech Stack
 
+
 Backend
 
 Java (Servlet API)
-
 JDBC
-
 Apache Tomcat
+
 
 Frontend
 
 JSP
-
 HTML
-
 CSS
+
 
 Database
 
 MySQL
-
 Development Environment
-
 NetBeans IDE (Ant-based Web Project)
+
 
 Features
 
 User Registration and Login
-
 Session-based Authentication
-
 Apply for Leave
-
 View Leave Status
+
 
 Admin Dashboard
 
 Approve / Reject Leave Requests
-
 Logout Functionality
-
 Architecture
 
 Client (JSP Pages) → Servlets (Controller Layer) → JDBC → MySQL Database
@@ -89,6 +83,7 @@ NetBeans IDE (or any Java IDE)
 
 Database Setup
 
+
 Create the database:
 
 CREATE DATABASE leave_management;
@@ -106,6 +101,8 @@ Build and run the project
 Access in browser:
 
 http://localhost:8080/ProjectName
+
+
 Security Implementation
 
 Session-based authentication
